@@ -161,3 +161,5 @@ branding:
 runs:
   using: 'node16'
   main: 'dist/index.js'
+- name: Deploy to Cloud Run
+  uses: google-github-actions/deploy-cloudrun@v0.9.0
